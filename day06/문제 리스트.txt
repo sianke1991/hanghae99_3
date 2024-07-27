@@ -1,0 +1,3 @@
+비기너: 폰켓몬 (https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+미들러: 의상 (https://school.programmers.co.kr/learn/courses/30/lessons/42578)
+챌린저: 테이블 해시 함수 (https://school.programmers.co.kr/learn/courses/30/lessons/147354)
