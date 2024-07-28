@@ -1,0 +1,3 @@
+비기너: 같은 숫자는 싫어 (https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+미들러: 하노이의 탑 (https://school.programmers.co.kr/learn/courses/30/lessons/12946)
+챌린저: 과제 진행하기 (https://school.programmers.co.kr/learn/courses/30/lessons/176962)
