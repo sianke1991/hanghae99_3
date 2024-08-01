@@ -8,6 +8,8 @@ import java.util.*;
 class Solution {
     public String solution(String[] cards1, String[] cards2, String[] goal) {
 	    //카드 더미 1을 표현하는 큐
+        //아래와 같이 작성하여 Queue 내부의 원소를 초기화 할 수 있다.
+        //Queue<String> q1 = new ArrayDeque<>(Arrays.asList(cards1));
         Queue<String> q1 = new ArrayDeque<>();
         for (var elem:cards1) q1.add(elem);
         //카드 더미 2를 표현하는 큐
