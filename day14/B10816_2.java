@@ -45,8 +45,8 @@ class Main {
 	
 	private static int countElemExactly(int target) {
 		int searchElemAtLeastTarget = searchElemAtLeast(target);
-		int searchElemAtMostTaget = searchElemAtMost(target);
-		return searchElemAtMostTaget-searchElemAtLeastTarget+1;
+		int searchElemAtMostTarget = searchElemAtMost(target);
+		return searchElemAtMostTarget-searchElemAtLeastTarget+1;
 	}
 
 	public static void main(String[] args) {
