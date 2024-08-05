@@ -1,0 +1,3 @@
+비기너: 모의고사 (https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+미들러: Prefix and Suffix Search - 745 (https://leetcode.com/problems/prefix-and-suffix-search/description/)
+챌린저: 소수 찾기 (https://school.programmers.co.kr/learn/courses/30/lessons/42839)
