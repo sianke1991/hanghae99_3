@@ -1,0 +1,54 @@
+import java.util.*;
+
+class Solution {
+    private int[] answers;
+
+    //1번 학생의 점수
+    public int score1() {
+        int result = 0;
+        int[] answerSubmit = {1, 2, 3, 4, 5};
+        for (int i=0; i<answers.length; i++) {
+            if (answers[i]==answerSubmit[i%answerSubmit.length])
+                result++;
+        }
+        return result;
+    }
+
+    //2번 학생의 점수
+    public int score2() {
+        int result = 0;
+        int[] answerSubmit = {2, 1, 2, 3, 2, 4, 2, 5};
+        for (int i=0; i<answers.length; i++) {
+            if (answers[i]==answerSubmit[i%answerSubmit.length])
+                result++;
+        }
+        return result;
+    }
+    
+    //3번 학생의 점수
+    public int score3() {
+        int result = 0;
+        int[] answerSubmit = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
+        for (int i=0; i<answers.length; i++) {
+            if (answers[i]==answerSubmit[i%answerSubmit.length])
+                result++;
+        }
+        return result;
+    }
+    
+    public int[] solution(int[] answers) {
+        this.answers = answers;
+        int score1 = score1();
+        int score2 = score2();
+        int score3 = score3();
+        int maxScore = Math.max(Math.max(score1, score2), score3);
+        List<Integer> result = new ArrayList<>();
+        if (maxScore==score1)
+            result.add(1);
+        if (maxScore==score2)
+            result.add(2);
+        if (maxScore==score3)
+            result.add(3);
+        return result.stream().mapToInt(i->i).toArray();
+    }
+}
