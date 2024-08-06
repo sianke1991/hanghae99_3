@@ -1,0 +1,3 @@
+비기너: 최소직사각형 (https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+미들러: 모음사전 (https://school.programmers.co.kr/learn/courses/30/lessons/84512)
+챌린저: N-Queen (https://school.programmers.co.kr/learn/courses/30/lessons/12952)
